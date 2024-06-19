@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: FTL Jump Dialogue
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Why did the Hyperdrive break down anyway?
+      _beatId: 2
+    - _text: Lets Jump!
+      _beatId: 4
+    - _text: Where are we going?
+      _beatId: 10
+    _text: 'Statement: Congratulations Sir. We are now ready to jump on your command.
+
+
+'
+    _id: 1
+  - _choices:
+    - _text: Are you saying my Ship is broken?
+      _beatId: 5
+    - _text: Lets Jump!
+      _beatId: 4
+    _text: 'Confession: I do not know, Sir. It appears that your ship is not up to
+      Federation standards. That is likely the culprit.
+
+'
+    _id: 2
+  - _choices:
+    - _text: Yes
+      _beatId: 4
+    _text: 'Cautionary: Detailed scans on this sector show a large presence of unknown
+      signals, possibly hostile.
+
+
+      Are you sure you want to jump, Sir?'
+    _id: 3
+  - _choices:
+    - _text: 'Yes, Jump!
+
+'
+      _beatId: 15
+    _text: "Cautionary: Recent scans show an abnormal amount of unknown signals that
+      could possibly be hostile. \n\nAre you sure you still want to jump, Sir?\n\n"
+    _id: 4
+  - _choices:
+    - _text: Just jump will you.
+      _beatId: 4
+    - _text: Maybe I should replace you as well
+      _beatId: 8
+    _text: "Answer: No, Sir!. I am simply stating that under the new ship regulations
+      enforced by the Federation, your ship does not comply. \n\nMay I suggest replacing
+      your current Hyperdrive. It is over 100 years old now. \n"
+    _id: 5
+  - _choices:
+    - _text: Fine. Lets Jump
+      _beatId: 4
+    _text: 'Cautionary: Unless you want to gain some income from your exploration,
+      I would advice against it. '
+    _id: 8
+  - _choices:
+    - _text: Lets Jump!
+      _beatId: 4
+    - _text: So, Why did the Hyperdrive break down?
+      _beatId: 2
+    _text: 'Answer: IC 2118, known as the Witch Head Nebula is our next system. It
+      is approximately 306 parsecs away (1000 light years).'
+    _id: 10
+  - _choices: []
+    _text: 'Statement: Very Well, Sir. We shall jump now
+
+
+      Jumping!
+
+
+      END
+      DIALOGUE'
+    _id: 15

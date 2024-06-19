@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Engine FIxed Dialogue
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: So we can jump now?
+      _beatId: 2
+    _text: "Congratulations Sir, The Hyperdrive engine is now fixed and running at
+      98.4% efficiency. \n"
+    _id: 1
+  - _choices: []
+    _text: 'A jump to IC 2118 is now possible with our current output. You may want
+      to take better care of your ship, Sir
+
+
+      END DIALOGUE'
+    _id: 2

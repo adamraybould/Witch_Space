@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Fix The Engine Dialogue
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: 'Run Diagnostics '
+      _beatId: 2
+    _text: 'Ship Engine Room Terminal
+
+'
+    _id: 1
+  - _choices:
+    - _text: What does that even mean?
+      _beatId: 3
+    - _text: How do I fix it?
+      _beatId: 4
+    _text: 'Running Diagnostics...
+
+
+      The Hyperdrive has a output rate of 5.67%.
+      The cause appears to be due to a unknown calibration fault.
+
+'
+    _id: 2
+  - _choices:
+    - _text: How do i fix it?
+      _beatId: 4
+    _text: 'Our current jump to "IC 2118", known as WItch head Nebula requires a
+      minimum output rate of 92.3%
+
+'
+    _id: 3
+  - _choices: []
+    _text: "Calibration faults are easily fixable, no matter the IQ. \n\nThe lights
+      on the engine correspond to a section of the engine. Pressing the corresponding
+      number (ranging from 1 to 4) when the light is active will calibrate that specific
+      section of the engine.\n\nOnce all sections have been calibrated, the engine
+      is fixed!\n\nEND DIALOGUE"
+    _id: 4

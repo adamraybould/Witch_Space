@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Intro Dialogue
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Okay? So..?
+      _beatId: 2
+    - _text: Our next route?
+      _beatId: 3
+    - _text: Who are you?
+      _beatId: 5
+    _text: "Sir, our next route has finally be calculated and is awaiting your input.
+      \n\n"
+    _id: 1
+  - _choices:
+    - _text: Alright, I will go and activate the jump
+      _beatId: -1
+    - _text: Where are we going?
+      _beatId: 3
+    _text: 'A jump cannot be initialized without authorization from the commander,
+      That being you, Sir.   '
+    _id: 2
+  - _choices:
+    - _text: Prepare to Jump!
+      _beatId: -1
+    - _text: Parsec?
+      _beatId: 8
+    _text: Known to the Federation as "Witch Head Sector AA-Z b0", our next system
+      is approximately 11.3 parsecs from our current location.
+    _id: 3
+  - _choices:
+    - _text: Nope, Let's Jump!
+      _beatId: -1
+    _text: 'I am Harvey, Your personal AI assistant aboard your ship: "The Skidbladnir".
+      Will there be anymore questions, sir?'
+    _id: 5
+  - _choices: []
+    _text: End Dialogue
+    _id: -1
+  - _choices:
+    - _text: No, Lets Jump!
+      _beatId: 9
+    - _text: Who are you?
+      _beatId: 5
+    _text: A unit of length approximately equaling 3.26 light-years. Anymore questions,
+      Sir?
+    _id: 8
